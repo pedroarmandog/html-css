@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            margin: 0px;
+        }
+
+        header {
+            width: 600px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rosybrown;
+            padding: 3px;
+            box-shadow: 3px 3px 7px 1px rgba(0, 0, 0, 0.24);
+
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        nav a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.226);
+        }
+        
+        article {
+            background-color: rgb(186, 215, 245);
+            padding: 5px;
+
+        }
+
+        article > aside {
+            background-color: rgb(139, 163, 184);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            Esportes | Notícias | Política | Economia | Tecnologia 
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia sequi sunt atque! Sequi iure obcaecati tenetur nihil facere vero cumque saepe numquam, voluptatem corrupti, quaerat ex esse perspiciatis architecto eveniet.</p>
+                <aside>
+                    <p>Artigo esccrito por José da Silva Pinto</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        Desenvolido por <a href="#">Pedro Armando Gonçalves</a>
+    </footer>
+    <div id="bola"></div>
+
+</body>
+</html>
