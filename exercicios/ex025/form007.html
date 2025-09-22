@@ -8,12 +8,13 @@
 <body>
     <h1>Exemplo de Formulário</h1>
 
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
 
         <p>
             <label for="iset">Estado</label>
             <select name="estado" id="iset">
-
+             
+            <option value="" selected>--- Escolha ---</option>
             <optgroup label="Região Sudeste">
                 <option value="MG">Minas Gerais</option>
                 <option value="RJ">Rio de Janeiro</option>
